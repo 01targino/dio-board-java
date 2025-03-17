@@ -1,0 +1,37 @@
+mar. 17, 2025 6:58:39 PM liquibase.changelog
+INFO: Reading resource: db/changelog/migrations/db.changelog-202503171846.sql
+mar. 17, 2025 6:58:39 PM liquibase.changelog
+INFO: Reading from board.DATABASECHANGELOG
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.lockservice
+INFO: Successfully acquired change log lock
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.changelog
+INFO: Reading from board.DATABASECHANGELOG
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+Running Changeset: db/changelog/migrations/db.changelog-202503171846.sql::202503171846::isabela
+mar. 17, 2025 6:58:39 PM liquibase.changelog
+INFO: Custom SQL executed
+mar. 17, 2025 6:58:39 PM liquibase.changelog
+INFO: ChangeSet db/changelog/migrations/db.changelog-202503171846.sql::202503171846::isabela ran successfully in 20ms
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase
+INFO: Update command completed successfully.
+mar. 17, 2025 6:58:39 PM liquibase.executor
+INFO: Changelog query completed.
+mar. 17, 2025 6:58:39 PM liquibase.lockservice
+INFO: Successfully released change log lock
