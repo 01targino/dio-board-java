@@ -18,6 +18,14 @@ public class BoardService {
 		var boardColumnDAO = new BoardColumnDAO(connection);
 		try {
 			dao.insert(entity);
+			var columns = entity.getBoardColumns().stream().map(c -> {
+				c.setBoard(entity);
+				return c;
+			}).toList();
+			for(var column : columns) {
+				boardColumnDAO.insert(column);
+			}
+			connection.commit();
 		} catch (SQLException e) {
 			connection.rollback();
 			throw e;

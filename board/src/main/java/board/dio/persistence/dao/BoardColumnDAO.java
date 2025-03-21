@@ -2,6 +2,7 @@ package board.dio.persistence.dao;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.List;
 
 import board.dio.persistence.entity.BoardColumnEntity;
 import lombok.RequiredArgsConstructor;
@@ -28,6 +29,10 @@ public class BoardColumnDAO {
 			
 			return entity;
 		}
+	}
+
+	public List<BoardColumnEntity> findByBoardId(Long id) throws SQLException {
+		return null;
 	}
 	
 }
